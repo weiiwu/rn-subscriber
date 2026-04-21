@@ -39,14 +39,21 @@
           }
         }
       ],
-      ["expo-font",{"fonts":[
-        "./assets/fonts/PlusJakaraSans-Regular.ttf",
-        "./assets/fonts/PlusJakaraSans-Bold.ttf",
-        "./assets/fonts/PlusJakaraSans-Medium.ttf",
-        "./assets/fonts/PlusJakaraSans-SemiBold.ttf",
-        "./assets/fonts/PlusJakaraSans-Light.ttf",
-        "./assets/fonts/PlusJakaraSans-ExtraBold.ttf"
-      ]}]
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/PlusJakaraSans-Regular.ttf",
+            "./assets/fonts/PlusJakaraSans-Bold.ttf",
+            "./assets/fonts/PlusJakaraSans-Medium.ttf",
+            "./assets/fonts/PlusJakaraSans-SemiBold.ttf",
+            "./assets/fonts/PlusJakaraSans-Light.ttf",
+            "./assets/fonts/PlusJakaraSans-ExtraBold.ttf"
+          ]
+        }
+      ],
+      "@clerk/expo",
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
