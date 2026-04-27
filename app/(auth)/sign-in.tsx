@@ -42,7 +42,7 @@ const SignIn = () => {
             await signIn.finalize({
                 navigate: ({ session, decorateUrl }) => {
                     if (session?.currentTask) {
-                        console.log(session?.currentTask);
+                        console.log('[handleSubmit]'+session?.currentTask);
                         return;
                     }
 
@@ -86,7 +86,7 @@ const SignIn = () => {
             await signIn.finalize({
                 navigate: ({ session, decorateUrl }) => {
                     if (session?.currentTask) {
-                        console.log(session?.currentTask);
+                        console.log('[handleVerify]'+session?.currentTask);
                         return;
                     }
 

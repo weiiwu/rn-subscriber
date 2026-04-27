@@ -1,5 +1,5 @@
-import { tabs } from "@/constance/data";
-import { colors, components } from "@/constance/theme";
+import { tabs } from "@/constants/data";
+import { colors, components } from "@/constants/theme";
 import { useAuth } from "@clerk/expo";
 import clsx from "clsx";
 import { Redirect, Tabs } from "expo-router";

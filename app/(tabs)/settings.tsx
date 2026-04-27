@@ -1,4 +1,4 @@
-import images from '@/constance/images';
+import images from '@/constants/images';
 import { useClerk, useUser } from '@clerk/expo';
 import { styled } from "nativewind";
 import { Image, Pressable, Text, View } from 'react-native';
